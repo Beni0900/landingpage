@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .button {
     display: inline-flex;
     @include font-size(8, mobile, true, false, true);
@@ -22,7 +24,7 @@
     white-space: nowrap;
 
 	&:hover {
-		background: lighten(color(bg, 3), 1%);
+		background: color.adjust(color(bg, 3), $lightness: 1%);
 	}
 
     &:active {
@@ -80,7 +82,7 @@
 	background-color: color(primary, 1);
 
     &:hover {
-        background: lighten(color(primary, 1), 1%);
+        background: color.adjust(color(primary, 1), $lightness: 1%);
     }
 
     &.button-shadow {
