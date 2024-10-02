@@ -39,14 +39,14 @@
 
     &::before {
         content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        box-shadow: 0 8px 24px rgba(color(bg, 1), .25);
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		box-shadow: 0 8px 24px rgba(color(bg, 1), .25);
 		mix-blend-mode: multiply;
-        transition: box-shadow .15s ease;
+		transition: box-shadow .15s ease;
     }
 
     &:hover {
