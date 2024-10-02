@@ -1,13 +1,26 @@
-# Laurel
+# Adult Website
 
 A landing page template.
 
-* [Getting started](#getting-started)
+## Project Description
 
-## Getting started
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* This template requires Node 14 to work. You can handle multiple node versions with [NVM](https://github.com/nvm-sh/nvm) 
-* Next, use your command line to enter your project directory.
-* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
+This is a simple landing page template that uses SCSS for styling. The project watches and compiles SCSS files into CSS using `sass`.
 
-You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
+### Version: 1.0.0
+
+## Requirements
+
+To run this project, you'll need the following:
+
+- [Node.js](https://nodejs.org/) (Recommended version: 14.x or higher)
+- npm (comes with Node.js)
+
+## Installation
+
+1. Clone the repository or download the source code.
+2. Open the project directory in your terminal.
+3. Run the following command to install the necessary dependencies:
+
+   ```bash
+   npm install
+   npm run dev
