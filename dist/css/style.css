@@ -1106,7 +1106,7 @@ label {
 }
 .input:hover,
 .textarea:hover {
-  border-color: rgb(31.2906976744, 48.1395348837, 72.2093023256);
+  border-color: rgb(37.05, 57, 85.5);
 }
 .input:active, .input:focus,
 .textarea:active,
@@ -1578,6 +1578,7 @@ label {
 .newsletter-form {
   max-width: 440px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 @media (min-width: 641px) {

@@ -8,6 +8,7 @@
 .newsletter-form {
     max-width: 440px;
     margin: 0 auto;
+	justify-content: center;
 }
 
 @include media( '>medium' ) {
